@@ -4,7 +4,7 @@
 
 The Equation Generator program is a simple program that generates a certain number of basic equations in the form of:
 
-a \* x = b
+                                                a \* x = b
 
 The program assigns random integers to a and x between 1 and 10, and then provides the opportunity for the user to submit an answer for x.
 
