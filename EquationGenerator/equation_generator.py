@@ -138,12 +138,11 @@ def disable_next_equation():
     
 def reset_entry_box():
     """Empties entry box and resets state to normal"""
-    entry_box.delete(0, tk.END)
     entry_box.config(state="normal")
+    entry_box.delete(0, tk.END)
     
 def disable_entry_box():
-    """Empties entry box and resets state to normal"""
-    entry_box.delete(0, tk.END)
+    """Disables entry box"""
     entry_box.config(state="disabled")
 
 # WIDGETS

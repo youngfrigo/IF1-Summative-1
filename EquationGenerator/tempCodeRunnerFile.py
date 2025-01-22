@@ -1,0 +1,1 @@
+entry_box.delete(0, tk.END)
