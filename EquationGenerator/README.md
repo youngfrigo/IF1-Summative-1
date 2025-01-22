@@ -38,7 +38,7 @@ The program can be downloaded from GitHub. Either by cloning into a directory on
 https://github.com/youngfrigo/IF1-Summative-1
 ```
 
-![image of github download options](GitHub-Clone-Download.png)
+![image of github download options](../GitHub-Clone-Download.png)
 
 2. Running the program
 
