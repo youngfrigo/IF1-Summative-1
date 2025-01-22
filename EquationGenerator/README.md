@@ -4,7 +4,7 @@
 
 The Equation Generator program is a simple program that generates a certain number of basic equations in the form of:
 
-                                                        a \* x = b
+                                                        a * x = b
 
 The program assigns random integers to a and x between 1 and 10, and then provides the opportunity for the user to submit an answer for x.
 
@@ -37,6 +37,8 @@ The program can be downloaded from GitHub. Either by cloning into a directory on
 ```
 https://github.com/youngfrigo/IF1-Summative-1
 ```
+
+![image of github download options](GitHub-Clone-Download.png)
 
 2. Running the program
 
