@@ -42,4 +42,33 @@ https://github.com/youngfrigo/IF1-Summative-1
 
 2. Running the program
 
+- If Terminal/Command Prompt
+
+  - Open a terminal or a command prompt
+  - Using the "cd" command navigate to the repository where you have downloaded the program
+  - Run the program by typing "python equation_generator.py"
+
+- If using Python application
+
+  - Open the folder where you have downloaded and extracted the github repository
+  - Open the EquationGenerator folder and right-click the equation_generator.py
+  - Select "Open with" followed by "Python"
+
+- If using Visual Studio Code
+
+  - Launch Visual Studio Code once it has been installed
+  - Select "File" from the top menu, followed by "Open Folder" and select the "EquationGenerator" folder from the downloaded and extracted GitHub repository
+  - Once the file is opened you have 2 options to run:
+
+  Run using terminal:
+
+  - By selecting "Terminal" > "New Terminal", a terminal window will appear in your VS Code window
+  - Ensure you are in the correct directory, and run the command "python equation_generator.py"
+
+  Run using play button/code runner:
+
+  - Press the "play" button highlighted below
+
+![vs code run button](../VSC-Run.png)
+
 ## Technical Documentation
