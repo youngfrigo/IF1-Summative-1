@@ -4,7 +4,7 @@
 
 The Equation Generator program is a simple program that generates a certain number of basic equations in the form of:
 
-                                                a \* x = b
+                                                        a \* x = b
 
 The program assigns random integers to a and x between 1 and 10, and then provides the opportunity for the user to submit an answer for x.
 
@@ -14,16 +14,30 @@ The user has one attempt at each question, and their score is tracked throughout
 
 ## User Guide
 
-### Getting Started
+### Pre-requisites
 
 There are some prerequisites that need to be completed to use the Equation Generator:
 
-1. Install Python3
+- Install Python3
 
-- The latest version of Python can be downloaded from the official Python website, https://www.python.org/downloads/. The latest version at the time of writing this document – January 2025 – is Python 3.13.1.
+The latest version of Python can be downloaded from the official Python website, https://www.python.org/downloads/. The latest version at the time of writing this document – January 2025 – is Python 3.13.1.
 
-2. Install Visual Studio Code
+- Install Visual Studio Code
 
 (This is technically optional. You can use the python.exe application to run the python file for the equation generator. But it is recommended for code editing/reading/maintenance)
+
+Visual Studio Code can be installed from it's official website, https://code.visualstudio.com/.
+
+### Getting Started
+
+1. Download the program
+
+The program can be downloaded from GitHub. Either by cloning into a directory on your local PC, or by downloading the zip folder. The repository can be found at:
+
+```
+https://github.com/youngfrigo/IF1-Summative-1
+```
+
+2. Running the program
 
 ## Technical Documentation
