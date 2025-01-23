@@ -68,7 +68,7 @@ Run using play button/code runner:
 
 - Press the "play" button highlighted below
 
-![vs code run button](/doc-images/VSC-Run.png)
+![vs code run button](../EquationGenerator/doc-images/VSC-Run.png)
 
 ### How to Use the Program
 
@@ -77,24 +77,24 @@ The quiz loop is as follows:
 1. Run the program
 2. Read notes on main screen
 
-![quiz start screen](/doc-images/EG-Start.png)
+![quiz start screen](../EquationGenerator/doc-images/EG-Start.png)
 
 3. Press "Start" when ready
 4. Solve the equation for x
 
-![quiz main screen](/doc-images/EG-Quiz.png)
+![quiz main screen](../EquationGenerator/doc-images/EG-Quiz.png)
 
 5. Submit your answer
 6. Move on to the next equation
 
-![submitted answer](/doc-images/EG-Submitted.png)
+![submitted answer](../EquationGenerator/doc-images/EG-Submitted.png)
 
 7. Repeat until all equations are answered
 
-![show final score](/doc-images/EG-Show-Score.png)
+![show final score](../EquationGenerator/doc-images/EG-Show-Score.png)
 
 8. Display your final score
 
-![final score](/doc-images/EG-Score.png)
+![final score](../EquationGenerator/doc-images/EG-Score.png)
 
 ## Technical Documentation
