@@ -123,20 +123,20 @@ answer is submitted, tracking the user's score, and then displaying the user's s
 
 #### Imports
 
-- import random: used to generate the numbers for a and x, between 1 and 10
-- import tkinter as tk: main python library for the program
-- from tkinter import messagebox: used in error checking the submitted value
+- import random: Used to generate the numbers for a and x, between 1 and 10
+- import tkinter as tk: Main python library for the program
+- from tkinter import messagebox: Used in error checking the submitted value
 
 #### Global variables
 
-- correct_answer: variable to hold correct answer for current equation
-- current_question: variable to count the index of current question
-- score: tracks user score
-- total_questions: used to set the total amount of questions
+- correct_answer: Variable to hold correct answer for current equation
+- current_question: Variable to count the index of current question
+- score: Tracks user score
+- total_questions: Used to set the total amount of questions
 
 #### Main functions
 
-- generate_equation
+- generate_equation: Generates a random equation when quiz is started, and each time a next equation button is clicked. Displays equation in GUI window. Assigns correct_answer variable and resets input fields
 - start_quiz
 - submit_answer
 - show_score
@@ -177,3 +177,13 @@ answer is submitted, tracking the user's score, and then displaying the user's s
 - `except ValueError: messagebox.showerror("ERROR!", "Please input a numerical value")` - except block with ValueError creates a popup to indicate an invalid value has been entered
 
 ![invalid value error](../EquationGenerator/doc-images/Invalid-Value-Error.png)
+
+### Download/Clone
+
+To clone the repository:
+
+`git clone https://github.com/youngfrigo/IF1-Summative-1.git`
+
+Repository can also downloaded as a ZIP folder from:
+
+`https://github.com/youngfrigo/IF1-Summative-1`
