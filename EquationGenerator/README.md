@@ -121,27 +121,27 @@ answer is submitted, tracking the user's score, and then displaying the user's s
 
 ### Code Structure
 
-1. Imports
+#### Imports
 
 - import random: used to generate the numbers for a and x, between 1 and 10
 - import tkinter as tk: main python library for the program
 - from tkinter import messagebox: used in error checking the submitted value
 
-2. Global variables
+#### Global variables
 
 - correct_answer: variable to hold correct answer for current equation
 - current_question: variable to count the index of current question
 - score: tracks user score
 - total_questions: used to set the total amount of questions
 
-3. Main functions
+#### Main functions
 
 - generate_equation
 - start_quiz
 - submit_answer
 - show_score
 
-4. Helper functions
+#### Helper functions
 
 - enable_submit, disable_submit
 - enable_next_equation, disable_next_equation
@@ -166,10 +166,10 @@ answer is submitted, tracking the user's score, and then displaying the user's s
 
 1.  No answer entered:
 
-`if entry_box.get():` - this try statement checks to ensure that a value in the user entry box exists
-`else: feedback_label.config(text= "No answer entered!", fg="black")` - a false return from the above check results in an error message
+- `if entry_box.get():` - this try statement checks to ensure that a value in the user entry box exists
+- `else: feedback_label.config(text= "No answer entered!", fg="black")` - a false return from the above check results in an error message
 
 2.  Invalid value entered:
 
-`try: user_answer = int(entry_box.get())` - try statement checks that the conversion of the submitted value to integer is successful
-`except ValueError: messagebox.showerror("ERROR!", "Please input a numerical value")` - except block with ValueError creates a popup to indicate an invalid value has been entered
+- `try: user_answer = int(entry_box.get())` - try statement checks that the conversion of the submitted value to integer is successful
+- `except ValueError: messagebox.showerror("ERROR!", "Please input a numerical value")` - except block with ValueError creates a popup to indicate an invalid value has been entered
