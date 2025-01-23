@@ -2,9 +2,7 @@
 
 ## Introduction
 
-The Equation Generator program is a simple program that generates a certain number of basic equations in the form of:
-
-                                                        a * x = b
+The Equation Generator program is a simple program that generates a certain number of basic equations in the form of: `a * x = b`
 
 The program assigns random integers to a and x between 1 and 10, and then provides the opportunity for the user to submit an answer for x.
 
@@ -109,3 +107,69 @@ When using the program on a Mac with Dark Mode on, the buttons can be slighlty m
 If you are using a Mac it is recommended to run the program whilst on Light Mode for easier readability
 
 ## Technical Documentation
+
+### Overview
+
+The Equation Generator program generates a simple algebraic equation in form of: `a * x = b`. The user is then tasked with solving the equation with
+respect to x. The programs main functions include generating an equation with random values for a and x, providing feedback to the user when an
+answer is submitted, tracking the user's score, and then displaying the user's score after all the equations have been answered.
+
+### System Requirements
+
+- Python 3 (currently latest is 3.13.1)
+- Tkinter (comes pre-installed with Python)
+
+### Code Structure
+
+1. Imports
+
+- import random: used to generate the numbers for a and x, between 1 and 10
+- import tkinter as tk: main python library for the program
+- from tkinter import messagebox: used in error checking the submitted value
+
+2. Global variables
+
+- correct_answer: variable to hold correct answer for current equation
+- current_question: variable to count the index of current question
+- score: tracks user score
+- total_questions: used to set the total amount of questions
+
+3. Main functions
+
+- generate_equation
+- start_quiz
+- submit_answer
+- show_score
+
+4. Helper functions
+
+- enable_submit, disable_submit
+- enable_next_equation, disable_next_equation
+- reset_entry_box, disable_entry_box
+
+### Program Logic
+
+1.  Once the program has been started, the generate equation functions generates two random
+    numbers for a and x, calculates their product which is then assigned to b. The value of
+    x is assigned to correct_answer.
+2.  The user has one attempt for each equation. Once their answer is submitted, the submit
+    button and entry box are disabled. The user's answer is validated against x/correct_answer
+    and feedback regarding the result is displayed on screen. Once an answer is submitted, the
+    next equation button is enabled. If the user's answer is correct, their score will be
+    incremented.
+3.  When a new equation is generated and displayed, the entry box is reset, and the submit
+    button is enabled.
+4.  Once all equations have been answered, the program will display a button to show the
+    user's final score.
+
+### Error Handling
+
+1.  No answer entered:
+
+`if entry_box.get():` - this try statement checks to ensure that a value in the user entry box exists
+`else: feedback_label.config(text= "No answer entered!", fg="black")` - a false return from the above check results in an error message
+
+2.  Invalid value entered:
+
+`try: user_answer = int(entry_box.get())` - try statement checks that the conversion of the submitted value to integer is successful
+`except ValueError: messagebox.showerror("ERROR!", "Please input a numerical value")` - except block with ValueError creates a popup to indicate an invalid value has been entered

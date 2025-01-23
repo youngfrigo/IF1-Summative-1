@@ -11,9 +11,9 @@ total_questions = 7
 # Initialise GUI window, title and dimensions
 root = tk.Tk()
 root.title("Equation Generator")
-root.geometry("400x200")
+root.geometry("500x200")
 
-# FUNCTIONS
+# MAIN FUNCTIONS
 
 def generate_equation():
     """
@@ -100,9 +100,9 @@ def submit_answer():
         # Error popup if value entered is NOT an integer 
         except ValueError:
             feedback_label.config(text="")
-            reset_entry_box()
             messagebox.showerror("ERROR!", "Please input a numerical value")
-            
+            reset_entry_box()
+                        
     # Displays message if submitted with no value in entry box
     else:
         feedback_label.config(text="No answer entered!", fg="black")
@@ -119,6 +119,8 @@ def show_score():
     entry_box.pack_forget()
     buttons_frame.pack_forget()
     feedback_label.pack_forget()
+
+# HELPER FUNCTIONS
 
 def enable_submit():
     """Enables submit button"""
@@ -156,7 +158,7 @@ start_button = tk.Button(master= root, text= "Start", font= ("Arial", 24), comma
 start_button.pack()
 
 # Main screen notes
-notes_label = tk.Label(master= root, text= f"Total equations = {total_questions}. Solve for x. All answers are of type integer.", font=("Arial", 10))
+notes_label = tk.Label(master= root, text= f"Total equations = {total_questions}. Solve for x. All answers are integers. One attempt per equation.", font=("Arial", 10))
 notes_label.pack(pady=10)
 
 # Entry box for user answers
