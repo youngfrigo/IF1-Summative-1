@@ -72,7 +72,7 @@ Run using play button/code runner:
 
 - Press the "play" button highlighted below
 
-![vs code run button](doc-images/VSC-Run.png)
+![vs code run button](VSC-Run.png)
 
 ### How to Use the Program
 
@@ -169,14 +169,14 @@ answer is submitted, tracking the user's score, and then displaying the user's s
 - `if entry_box.get():` - this try statement checks to ensure that a value in the user entry box exists
 - `else: feedback_label.config(text= "No answer entered!", fg="black")` - a false return from the above check results in an error message
 
-![no answer submitted](../EquationGenerator/doc-images/Empy-Entry-Error.png)
+![no answer submitted](Empy-Entry-Error.png)
 
 2.  Invalid value entered:
 
 - `try: user_answer = int(entry_box.get())` - try statement checks that the conversion of the submitted value to integer is successful
 - `except ValueError: messagebox.showerror("ERROR!", "Please input a numerical value")` - except block with ValueError creates a popup to indicate an invalid value has been entered
 
-![invalid value error](../EquationGenerator/doc-images/Invalid-Value-Error.png)
+![invalid value error](Invalid-Value-Error.png)
 
 ### Download/Clone
 
