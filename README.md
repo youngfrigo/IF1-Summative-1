@@ -41,7 +41,7 @@ The program can be downloaded from GitHub. Either by cloning into a directory on
 https://github.com/youngfrigo/IF1-Summative-1
 ```
 
-![image of github download options](GitHub-Clone-Download.png)
+![image of github download options](doc-images/GitHub-Clone-Download.png)
 
 ### Running the program
 
@@ -72,7 +72,7 @@ Run using play button/code runner:
 
 - Press the "play" button highlighted below
 
-![vs code run button](VSC-Run.png)
+![vs code run button](doc-images/VSC-Run.png)
 
 ### How to Use the Program
 
@@ -81,25 +81,25 @@ The quiz loop is as follows:
 1. Run the program
 2. Read notes on main screen
 
-![quiz start screen](EG-Start.png)
+![quiz start screen](doc-images/EG-Start.png)
 
 3. Press "Start" when ready
 4. Solve the equation for x
 
-![quiz main screen](EG-Quiz.png)
+![quiz main screen](doc-images/EG-Quiz.png)
 
 5. Submit your answer
 6. Move on to the next equation
 
-![submitted answer](EG-Submitted.png)
+![submitted answer](doc-images/EG-Submitted.png)
 
 7. Repeat until all equations are answered
 
-![show final score](EG-Show-Score.png)
+![show final score](doc-images/EG-Show-Score.png)
 
 8. Display your final score
 
-![final score](EG-Score.png)
+![final score](doc-images/EG-Score.png)
 
 ### Troubleshooting & tips
 
@@ -169,14 +169,14 @@ answer is submitted, tracking the user's score, and then displaying the user's s
 - `if entry_box.get():` - this try statement checks to ensure that a value in the user entry box exists
 - `else: feedback_label.config(text= "No answer entered!", fg="black")` - a false return from the above check results in an error message
 
-![no answer submitted](Empy-Entry-Error.png)
+![no answer submitted](doc-images/Empy-Entry-Error.png)
 
 2.  Invalid value entered:
 
 - `try: user_answer = int(entry_box.get())` - try statement checks that the conversion of the submitted value to integer is successful
 - `except ValueError: messagebox.showerror("ERROR!", "Please input a numerical value")` - except block with ValueError creates a popup to indicate an invalid value has been entered
 
-![invalid value error](Invalid-Value-Error.png)
+![invalid value error](doc-images/Invalid-Value-Error.png)
 
 ### Download/Clone
 
