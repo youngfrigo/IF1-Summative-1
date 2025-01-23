@@ -20,7 +20,7 @@ Install Python3
 
 - The latest version of Python can be downloaded from the official Python website, https://www.python.org/downloads/. The latest version at the time of writing this document – January 2025 – is Python 3.13.1.
 
-![install python](../EquationGenerator/doc-images/Python-Install.png)
+![install python](doc-images/Python-Install.png)
 
 Install Visual Studio Code
 
@@ -29,7 +29,7 @@ Install Visual Studio Code
 
 Once you have opened Visual Studio Code you can confirm your Python install/version with the command: python --version
 
-![python version check](../EquationGenerator/doc-images/Python-Check.png)
+![python version check](doc-images/Python-Check.png)
 
 ### Getting Started
 
@@ -41,7 +41,7 @@ The program can be downloaded from GitHub. Either by cloning into a directory on
 https://github.com/youngfrigo/IF1-Summative-1
 ```
 
-![image of github download options](../EquationGenerator/doc-images/GitHub-Clone-Download.png)
+![image of github download options](GitHub-Clone-Download.png)
 
 ### Running the program
 
@@ -72,7 +72,7 @@ Run using play button/code runner:
 
 - Press the "play" button highlighted below
 
-![vs code run button](../EquationGenerator/doc-images/VSC-Run.png)
+![vs code run button](doc-images/VSC-Run.png)
 
 ### How to Use the Program
 
@@ -81,25 +81,25 @@ The quiz loop is as follows:
 1. Run the program
 2. Read notes on main screen
 
-![quiz start screen](../EquationGenerator/doc-images/EG-Start.png)
+![quiz start screen](EG-Start.png)
 
 3. Press "Start" when ready
 4. Solve the equation for x
 
-![quiz main screen](../EquationGenerator/doc-images/EG-Quiz.png)
+![quiz main screen](EG-Quiz.png)
 
 5. Submit your answer
 6. Move on to the next equation
 
-![submitted answer](../EquationGenerator/doc-images/EG-Submitted.png)
+![submitted answer](EG-Submitted.png)
 
 7. Repeat until all equations are answered
 
-![show final score](../EquationGenerator/doc-images/EG-Show-Score.png)
+![show final score](EG-Show-Score.png)
 
 8. Display your final score
 
-![final score](../EquationGenerator/doc-images/EG-Score.png)
+![final score](EG-Score.png)
 
 ### Troubleshooting & tips
 
@@ -182,8 +182,8 @@ answer is submitted, tracking the user's score, and then displaying the user's s
 
 To clone the repository:
 
-`git clone https://github.com/youngfrigo/IF1-Summative-1.git`
+`git clone https://github.com/youngfrigo/IF1-Summative-1-Equation-Generator.git`
 
 Repository can also downloaded as a ZIP folder from:
 
-`https://github.com/youngfrigo/IF1-Summative-1`
+`https://github.com/youngfrigo/IF1-Summative-1-Equation-Generator`
