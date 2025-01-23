@@ -22,10 +22,16 @@ Install Python3
 
 - The latest version of Python can be downloaded from the official Python website, https://www.python.org/downloads/. The latest version at the time of writing this document – January 2025 – is Python 3.13.1.
 
+![install python](../EquationGenerator/doc-images/Python-Install.png)
+
 Install Visual Studio Code
 
 - Visual Studio Code can be installed from it's official website, https://code.visualstudio.com/.
 - (This is technically optional. You can use the python.exe application to run the python file for the equation generator. But it is recommended for code editing/reading)
+
+Once you have opened Visual Studio Code you can confirm your Python install/version with the command: python --version
+
+![python version check](../EquationGenerator/doc-images/Python-Check.png)
 
 ### Getting Started
 
@@ -96,5 +102,10 @@ The quiz loop is as follows:
 8. Display your final score
 
 ![final score](../EquationGenerator/doc-images/EG-Score.png)
+
+### Troubleshooting & tips
+
+When using the program on a Mac with Dark Mode on, the buttons can be slighlty more difficult to see.
+If you are using a Mac it is recommended to run the program whilst on Light Mode for easier readability
 
 ## Technical Documentation
