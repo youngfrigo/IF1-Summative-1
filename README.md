@@ -29,7 +29,7 @@ Once you have opened Visual Studio Code you can confirm your Python install/vers
 
 ![python version check](doc-images/Python-Check.png)
 
-Install tkiner
+Install tkinter
 
 - Tkinter is the python library that we are going to use to create our GUI interface.
 - No need to do any additional installation as tkinter comes pre-installed with Python
